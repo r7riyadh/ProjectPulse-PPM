@@ -10,11 +10,11 @@
 [![Recharts](https://img.shields.io/badge/Recharts-2.12-22c55e?style=flat-square)](https://recharts.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-🌐 **Live Demo**: [https://projectpulse.riyadhalmahmud.tech](https://projectpulse.riyadhalmahmud.tech)
+**Live Demo**: [https://projectpulse.riyadhalmahmud.tech](https://projectpulse.riyadhalmahmud.tech)
 
 ---
 
-## 📖 Introduction
+## Introduction
 
 **ProjectPulse** is a full-stack, browser-based IT Project Portfolio Management system designed for enterprise IT teams and PMO offices. It centralizes the entire project lifecycle, from initiation and planning through execution, risk governance, and closure, in a single unified interface backed by a real-time executive dashboard that surfaces portfolio health, budget variance, overdue milestones, and open risk scores.
 
@@ -24,7 +24,7 @@ It forms the third pillar of an enterprise IT governance trilogy alongside **Inf
 
 ---
 
-## ⚠️ Problem Statement
+## Problem Statement
 
 Large IT organizations struggle to maintain visibility across active infrastructure upgrades, software rollouts, and compliance audits. Project details are scattered across emails, spreadsheets, and disconnected tools, resulting in budget overruns, missed milestones, undocumented scope changes, and no single source of truth for portfolio health.
 
@@ -32,7 +32,7 @@ Enterprise PPM suites such as Microsoft Project, Planview, and Clarity PPM addre
 
 ---
 
-## 👥 Target Audience
+## Target Audience
 
 * **PMO Admins**: Overseeing the full portfolio, managing user roles, and performing compliance resets.
 * **Project Managers**: Creating projects, managing milestones, logging expenditures, and approving change requests.
@@ -41,7 +41,7 @@ Enterprise PPM suites such as Microsoft Project, Planview, and Clarity PPM addre
 
 ---
 
-## ✨ Core Functionalities
+## Core Functionalities
 
 ### 1. Executive Portfolio Dashboard
 * **KPI Metric Cards**: Total projects, portfolio planned budget, actual spend, and budget variance surfaced as real-time calculated values.
@@ -95,7 +95,7 @@ Enterprise PPM suites such as Microsoft Project, Planview, and Clarity PPM addre
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 | :--- | :--- |
@@ -110,7 +110,7 @@ Enterprise PPM suites such as Microsoft Project, Planview, and Clarity PPM addre
 
 ---
 
-## 📐 Architecture Diagram
+## Architecture Diagram
 
 ```mermaid
 graph TD
@@ -139,7 +139,7 @@ graph TD
 
 ---
 
-## 🗄️ Database Design
+## Database Design
 
 ProjectPulse operates on 8 tables in Supabase PostgreSQL:
 
@@ -237,7 +237,7 @@ erDiagram
 
 ---
 
-## 🔒 Security Model & RLS Access Control
+## Security Model & RLS Access Control
 
 Row-Level Security (RLS) is strictly enforced in PostgreSQL via a `get_my_role()` security-definer helper:
 
@@ -252,7 +252,7 @@ Row-Level Security (RLS) is strictly enforced in PostgreSQL via a `get_my_role()
 
 ---
 
-## 🧪 Demo Credentials
+## Demo Credentials
 
 Reviewers can switch between roles instantly using the login switcher:
 
@@ -265,7 +265,7 @@ Reviewers can switch between roles instantly using the login switcher:
 
 ---
 
-## 🚀 Local Setup Instructions
+## Local Setup Instructions
 
 ### Prerequisites
 * Node.js v18+
@@ -308,7 +308,6 @@ Reviewers can switch between roles instantly using the login switcher:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
-# ProjectPulse-PPM
